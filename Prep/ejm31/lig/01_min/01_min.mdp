@@ -1,0 +1,15 @@
+nstlog = 100
+nstenergy = 100
+integrator = steep
+nsteps = 250
+pbc = xyz
+cutoff-scheme = Verlet
+ns-type = grid
+nstlist = 20
+rlist = 0.8
+rvdw = 0.8
+rcoulomb = 0.8
+coulombtype = PME
+DispCorr = EnerPres
+vdwtype = Cut-off
+refcoord-scaling = com
