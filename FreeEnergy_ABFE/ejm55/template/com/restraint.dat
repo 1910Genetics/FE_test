@@ -1,0 +1,40 @@
+GROMACS FORMAT
+[ intermolecular_interactions ]
+[ bonds ]
+; ai         aj      type bA         kA         bB         kB
+  1478       15         6 0.447      0.00       0.447      12181.23  
+[ angles ]
+; ai         aj         ak      type thA        fcA        thB        fcB
+  1476       1478       15         1 64.318     0.00       64.318     387.61    
+  1478       15         14         1 55.068     0.00       55.068     258.67    
+[ dihedrals ]
+; ai         aj         ak         al      type phiA       fcA        phiB       fcB
+  1490       1476       1478       15         2 -67.797    0.00       -67.797    956.62    
+  1476       1478       15         14         2 -23.929    0.00       -23.929    529.44    
+  1478       15         14         16         2 -125.886   0.00       -125.886   392.08    
+RESTRAINT BSS INFO 
+anchor_points
+r1: 1477
+r2: 1475
+r3: 1489
+l1: 14
+l2: 13
+l3: 15
+
+equilibrium_values
+r0: 4.4730 A
+thetaA0: 1.1226 radians
+thetaB0: 0.9611 radians
+phiA0: -1.1833 radians
+phiB0: -0.4176 radians
+phiC0: -2.1971 radians
+
+force_constants
+kr: 29.1138 kcal mol-1 Å-2
+kthetaA: 0.0282199 kcal mol-1 °-2
+kthetaB: 0.0188323 kcal mol-1 °-2
+kphiA: 0.0696469 kcal mol-1 °-2
+kphiB: 0.0385461 kcal mol-1 °-2
+kphiC: 0.0285455 kcal mol-1 °-2
+FREE ENERGY RELEASE VALUE 
+-11.0570 kcal/mol
